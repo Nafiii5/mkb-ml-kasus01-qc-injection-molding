@@ -1,0 +1,114 @@
+{
+  "kasus": "01 - Pengendalian Mutu Injection Molding",
+  "model_final": "HistGradientBoosting",
+  "dataset_clean_rows": 25000,
+  "split_sizes": {
+    "train": 17500,
+    "val": 3750,
+    "test": 3750
+  },
+  "business_cost_rp": {
+    "false_negative": 500000,
+    "false_positive": 25000
+  },
+  "optimal_threshold": 0.045,
+  "validation_results": {
+    "Baseline_LogisticRegression": {
+      "pr_auc": 0.5182,
+      "threshold": 0.045,
+      "total_cost_rp": 41975000,
+      "avg_cost_per_part_rp": 11193.33,
+      "tp": 262,
+      "fp": 1099,
+      "fn": 29,
+      "tn": 2360,
+      "precision": 0.1925,
+      "recall": 0.9003,
+      "f1": 0.3172
+    },
+    "HistGradientBoosting": {
+      "pr_auc": 0.6759,
+      "threshold": 0.045,
+      "total_cost_rp": 27200000,
+      "avg_cost_per_part_rp": 7253.33,
+      "tp": 268,
+      "fp": 628,
+      "fn": 23,
+      "tn": 2831,
+      "precision": 0.2991,
+      "recall": 0.921,
+      "f1": 0.4516
+    },
+    "RandomForest": {
+      "pr_auc": 0.6624,
+      "threshold": 0.06,
+      "total_cost_rp": 28600000,
+      "avg_cost_per_part_rp": 7626.67,
+      "tp": 268,
+      "fp": 684,
+      "fn": 23,
+      "tn": 2775,
+      "precision": 0.2815,
+      "recall": 0.921,
+      "f1": 0.4312
+    }
+  },
+  "test_results_opened_once": {
+    "Baseline_LogisticRegression": {
+      "pr_auc": 0.4938,
+      "threshold": 0.045,
+      "precision": 0.1858,
+      "recall": 0.8522,
+      "f1": 0.305,
+      "tp": 248,
+      "fp": 1087,
+      "fn": 43,
+      "tn": 2372,
+      "total_cost_rp": 48675000,
+      "avg_cost_per_part_rp": 12980.0
+    },
+    "HistGradientBoosting": {
+      "pr_auc": 0.67,
+      "threshold": 0.045,
+      "precision": 0.2844,
+      "recall": 0.8797,
+      "f1": 0.4299,
+      "tp": 256,
+      "fp": 644,
+      "fn": 35,
+      "tn": 2815,
+      "total_cost_rp": 33600000,
+      "avg_cost_per_part_rp": 8960.0
+    }
+  },
+  "input_ranges": {
+    "suhu_leleh_C": [
+      190.0,
+      340.0
+    ],
+    "suhu_cetakan_C": [
+      15.0,
+      120.0
+    ],
+    "tekanan_injeksi_bar": [
+      400.0,
+      1400.0
+    ],
+    "kecepatan_injeksi_mm_s": [
+      20.0,
+      150.0
+    ],
+    "waktu_pendinginan_s": [
+      5.0,
+      40.0
+    ],
+    "waktu_siklus_s": [
+      12.0,
+      60.0
+    ],
+    "kelembaban_bahan_pct": [
+      0.0,
+      0.6
+    ]
+  }
+}
