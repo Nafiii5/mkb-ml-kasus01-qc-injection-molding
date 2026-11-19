@@ -6,8 +6,8 @@ Kasus: 01 - Pengendalian Mutu Injection Molding · Aplikasi: https://mkb-ml-kasu
 
 | Anggota | NIM | Bagian yang dikerjakan |
 | :--- | :--- | :--- |
-| Nafira Zahra Anantha | 2405832 | Audit data mentah, pembersihan anomali sensor (`src/cleaning.py`), dan EDA (`notebooks/01`) | Inferensi & validasi input ekstrem (`src/predict.py`), API (`app/api.py`), aplikasi (`app/streamlit_app.py`), dan pengujian (`tests/`) |
-| Nailah Khoirun Widad | 2401678 | Rekayasa fitur fisika proses (`src/features.py`), pemodelan, dan optimasi threshold (`src/train.py`) | Penyusunan laporan (`LAPORAN.md`), deployment aplikasi daring, dan video demo |
+| Nafira Zahra Anantha | 2405832 | Audit data mentah, pembersihan anomali sensor (`src/cleaning.py`), dan EDA (`notebooks/01`), Inferensi & validasi input ekstrem (`src/predict.py`), API (`app/api.py`), aplikasi (`app/streamlit_app.py`), dan pengujian (`tests/`) |
+| Nailah Khoirun Widad | 2401678 | Rekayasa fitur fisika proses (`src/features.py`), pemodelan, dan optimasi threshold (`src/train.py`), Penyusunan laporan (`LAPORAN.md`), deployment aplikasi daring, dan video demo |
 
 ## Masalah dan pengguna
 
