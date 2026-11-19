@@ -1,6 +1,7 @@
 # Deteksi Dini Cacat Injection Molding 
 
-Kasus: 01 - Pengendalian Mutu Injection Molding · Aplikasi: https://mkb-ml-kasus01-qc-injection-molding-duxjjjld6uwamktmsdmnmc.streamlit.app/ · Video: [Tautan Video Demo]
+Kasus: 01 - Pengendalian Mutu Injection Molding · Aplikasi: https://mkb-ml-kasus01-qc-injection-molding-duxjjjld6uwamktmsdmnmc.streamlit.app/ 
+· Video: https://drive.google.com/drive/folders/1f7sg9OONmemdrVNEOJ15ZVnYNqWnY_pn?usp=drive_link
 
 ## Anggota
 
