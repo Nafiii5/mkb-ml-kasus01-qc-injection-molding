@@ -1,5 +1,4 @@
-# mkb-ml-kasus01-qc-injection-molding
-# Deteksi Dini Cacat Injection Molding · Tim [Nama Tim]
+# Deteksi Dini Cacat Injection Molding 
 
 Kasus: 01 - Pengendalian Mutu Injection Molding · Aplikasi: https://mkb-ml-kasus01-qc-injection-molding-duxjjjld6uwamktmsdmnmc.streamlit.app/ · Video: [Tautan Video Demo]
 
